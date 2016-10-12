@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 source(file.path(REGO_HOME, "/src/logger.R"))
 
 winsorize <- function(x, beta = 0.025) 

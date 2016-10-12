@@ -26,7 +26,7 @@
 #         RF_HOME: environment variable pointing to appropriate RuleFit
 #                  executable -- e.g., export RF_HOME=$REGO_HOME/lib/RuleFit/mac
 #           
-# AUTHOR: Giovanni Seni <Giovanni_Seni@intuit.com> 
+# AUTHOR: Giovanni Seni, Xiaoyu Dai
 ###############################################################################
 REGO_HOME <- Sys.getenv("REGO_HOME")
 source(file.path(REGO_HOME, "/src/logger.R"))

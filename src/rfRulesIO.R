@@ -1,3 +1,6 @@
+# AUTHOR: Giovanni Seni, Xiaoyu Dai
+###############################################################################
+
 source(file.path(REGO_HOME, "/src/rfPreproc.R"))
 
 # Constants

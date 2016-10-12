@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 source(file.path(REGO_HOME, "/src/rfExport.R"))
 source(file.path(REGO_HOME, "/src/rfRulesIO.R"))
 source(file.path(REGO_HOME, "/src/h2oPred.R"))

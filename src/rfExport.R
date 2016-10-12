@@ -1,3 +1,6 @@
+# AUTHOR: Giovanni Seni
+###############################################################################
+
 source(file.path(REGO_HOME, "/src/winsorize.R"))
 
 # Constants

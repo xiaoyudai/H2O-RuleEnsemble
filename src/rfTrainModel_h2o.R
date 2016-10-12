@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 library(rPython)
 python.load(file.path(REGO_HOME, "/src/main.py"), get.exception = TRUE )
 library(R2HTML)

@@ -1,5 +1,8 @@
+# AUTHOR: Giovanni Seni, Xiaoyu Dai
+###############################################################################
+
 source(file.path(REGO_HOME, "/src/logger.R"))
-source(file.path(REGO_HOME, "/lib/RuleFit/rulefit.r"))
+# source(file.path(REGO_HOME, "/lib/RuleFit/rulefit.r"))
 
 DefaultRFContext <- function()
 {

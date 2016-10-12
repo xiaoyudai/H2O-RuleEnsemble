@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 createFunction <- function(rule, feature, reference){
   # input:   
   #   rule: a list of rules
@@ -7,6 +10,8 @@ createFunction <- function(rule, feature, reference){
   # output:
   #   a list of binary-output functions correpsonding to rules
   
+
+
   f <- function(data){
     numMatch = 0
     conditionIndex = 1

@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 H2Oconvert2Rego <- function(Rules, feature, reference, coef, importance, std_supp, out.path="/tmp"){
   # export H2O model output into external files that could be read by REGO and RErunner for later process
   # Args:

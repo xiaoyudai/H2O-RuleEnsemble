@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 source(file.path(REGO_HOME, "/src/rfTrain.R"))
 source(file.path(REGO_HOME, "/src/rfPreproc.R"))
 

@@ -2,7 +2,7 @@
 """
 Created on Fri Jun  3 14:57:13 2016
 
-@author: xiaoydai
+@author: Xiaoyu Dai
 """
 
 

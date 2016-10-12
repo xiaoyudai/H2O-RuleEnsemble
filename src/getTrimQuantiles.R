@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 getTrimQuantiles <- function(data, beta = 0.025, feature, reference){
   # Reads in "trim" quantiles, tuples <var-name, min, max, mean>, from the specified data. 
   

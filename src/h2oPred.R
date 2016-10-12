@@ -1,3 +1,5 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
 
 LogOdds <- function(p) {
   # Computes the logarithm of the odds p/(1 − p).'

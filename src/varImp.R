@@ -1,3 +1,6 @@
+# AUTHOR: Xiaoyu Dai
+###############################################################################
+
 
 varImp <- function(Rules, feature, reference, importance_Rules, importance_linear){
   # calculate input variable importance
