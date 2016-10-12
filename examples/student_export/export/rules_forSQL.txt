@@ -1,0 +1,21 @@
+-2.659009 +
+ 3.09057622*CASE WHEN(age*1.0  >= 16.5 and age*1.0  < 17.5 AND activities.x IN ( 'yes' ) AND absences.y*1.0  > 3.5)THEN 1 ELSE 0 END +
+ 1.48956366*CASE WHEN(age*1.0  > 17.5 AND famsup.x IN ( 'no' ))THEN 1 ELSE 0 END +
+ 1.90035064*CASE WHEN(age*1.0  >= 16.5 and age*1.0  < 17.5 AND (activities.x IS NULL OR activities.x NOT IN ( 'yes' )) AND traveltime.x*1.0  > 1.5)THEN 1 ELSE 0 END +
+ 1.78163828*CASE WHEN(age*1.0  > 17.5 AND traveltime.y*1.0  > 1.5 AND address IN ( 'R' ))THEN 1 ELSE 0 END +
+ 1.19823919*CASE WHEN(age*1.0  > 17.5 AND traveltime.x*1.0  > 1.5)THEN 1 ELSE 0 END +
+ 1.51863259*CASE WHEN(age*1.0  > 17.5 AND (famsup.x IS NULL OR famsup.x NOT IN ( 'no' )) AND Fjob IN ( 'at_home','health','services','teacher' ))THEN 1 ELSE 0 END +
+ 1.49475514*CASE WHEN(age*1.0  >= 16.5 and age*1.0  < 17.5 AND Fjob IN ( 'at_home','services' ) AND G3.y*1.0  <= 13.5)THEN 1 ELSE 0 END +
+-0.06285379*CASE WHEN absences.y IS NULL THEN 0 ELSE CASE WHEN absences.y < -99999 THEN -99999 WHEN absences.y > 99999 THEN 99999 ELSE absences.y END END +
+ 1.32486370*CASE WHEN(age*1.0  > 17.5 AND traveltime.x*1.0  <= 1.5 AND absences.x*1.0  <= 7.5 AND absences.y*1.0  > 0.5)THEN 1 ELSE 0 END +
+ 1.09057105*CASE WHEN(age*1.0  > 17.5 AND traveltime.y*1.0  > 1.5 AND reason IN ( 'course','other' ))THEN 1 ELSE 0 END +
+ 1.19726936*CASE WHEN(age*1.0  > 17.5 AND traveltime.y*1.0  <= 1.5 AND reason IN ( 'course' ))THEN 1 ELSE 0 END +
+-0.22720480*CASE WHEN famrel.x IS NULL THEN 0 ELSE CASE WHEN famrel.x < -99999 THEN -99999 WHEN famrel.x > 99999 THEN 99999 ELSE famrel.x END END +
+-0.35241430*CASE WHEN(age*1.0  <= 16.5)THEN 1 ELSE 0 END +
+-0.01601337*CASE WHEN absences.x IS NULL THEN 0 ELSE CASE WHEN absences.x < -99999 THEN -99999 WHEN absences.x > 99999 THEN 99999 ELSE absences.x END END +
+-0.11414268*CASE WHEN studytime.y IS NULL THEN 0 ELSE CASE WHEN studytime.y < -99999 THEN -99999 WHEN studytime.y > 99999 THEN 99999 ELSE studytime.y END END +
+ 0.10847972*CASE WHEN traveltime.y IS NULL THEN 0 ELSE CASE WHEN traveltime.y < -99999 THEN -99999 WHEN traveltime.y > 99999 THEN 99999 ELSE traveltime.y END END +
+-0.19013661*CASE WHEN(age*1.0  > 17.5 AND traveltime.y*1.0  <= 1.5 AND (Mjob IS NULL OR Mjob NOT IN ( 'at_home','services','teacher' )))THEN 1 ELSE 0 END +
+ 0.13221587*CASE WHEN(age*1.0  >= 16.5 and age*1.0  < 17.5 AND Fjob IN ( 'at_home','services' ))THEN 1 ELSE 0 END +
+-0.01631616*CASE WHEN health.x IS NULL THEN 0 ELSE CASE WHEN health.x < -99999 THEN -99999 WHEN health.x > 99999 THEN 99999 ELSE health.x END END +
+ 0.04539710*CASE WHEN(age*1.0  >= 16.5 and age*1.0  < 17.5 AND (famsup.x IS NULL OR famsup.x NOT IN ( 'no' )) AND activities.y IN ( 'yes' ))THEN 1 ELSE 0 END 

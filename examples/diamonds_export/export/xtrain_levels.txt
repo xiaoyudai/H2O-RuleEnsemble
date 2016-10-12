@@ -1,0 +1,7 @@
+'carat'
+'cut','Fair','Good','Ideal','Premium','Very Good'
+'color','D','E','F','G','H','I','J'
+'clarity','I1','IF','SI1','SI2','VS1','VS2','VVS1','VVS2'
+'depth'
+'table'
+

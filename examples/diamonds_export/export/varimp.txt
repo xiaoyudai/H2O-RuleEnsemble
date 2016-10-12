@@ -1,0 +1,6 @@
+100	carat
+1.4904183799338	table
+1.13439732055183	depth
+0	cut
+0	color
+0	clarity

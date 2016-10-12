@@ -1,0 +1,7 @@
+vname min2keep max2keep mean
+carat 0.28 2.02 0.797939747868013
+cut NA NA NA
+color NA NA NA
+clarity NA NA NA
+depth 58.6 64.4 61.7494048943266
+table 54 62 57.4571839080457

@@ -1,0 +1,6 @@
+carat
+cut
+color
+clarity
+depth
+table

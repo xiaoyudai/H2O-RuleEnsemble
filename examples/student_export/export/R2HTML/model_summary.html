@@ -1,0 +1,419 @@
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+<title> Student -- Model Summary </title>
+<link rel=stylesheet href="R2HTML.css" type=text/css>
+<object id="mathplayer" classid="clsid:32F66A20-7614-11D4-BD11-00104BD3F987"></object>
+<?import namespace="mml" implementation="#mathplayer"?>
+<script type="text/javascript" src="ASCIIMathML.js"></script>
+<link href="./runtime/styles/xp/grid.css" rel="stylesheet" type="text/css" ></link>
+<link href="gridR2HTML.css" rel="stylesheet" type="text/css" ></link>
+
+<script src="./runtime/lib/grid.js"></script>
+
+<script src="./gridR2HTML.js"></script>
+<script>
+   nequations=0;
+</script>
+</head>
+<body onload="translate()" bgcolor= #BBBBEE >
+ <h2 > Student -- Model Summary</h2>
+
+
+<p align= center >
+<table cellspacing=0 border=1>
+<caption align=bottom class=captiondataframe>Global Variable Importance</caption>
+<tr><td>
+	<table border=0 class=dataframe>
+	<tbody> 
+	<tr class= firstline > 
+		<th>Importance  </th>
+		<th>Variable</th> 
+	</tr> 
+<tr> 
+<td class=cellinside>100.0
+</td>
+<td class=cellinside>age
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>37.1
+</td>
+<td class=cellinside>absences.y
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>24.9
+</td>
+<td class=cellinside>traveltime.y
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>24.8
+</td>
+<td class=cellinside>traveltime.x
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>22.5
+</td>
+<td class=cellinside>activities.x
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>22.4
+</td>
+<td class=cellinside>famsup.x
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>15.2
+</td>
+<td class=cellinside>Fjob
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>13.1
+</td>
+<td class=cellinside>famrel.x
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>11.7
+</td>
+<td class=cellinside>absences.x
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>10.6
+</td>
+<td class=cellinside>reason
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>8.7
+</td>
+<td class=cellinside>address
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>6.8
+</td>
+<td class=cellinside>G3.y
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>6.1
+</td>
+<td class=cellinside>studytime.y
+</td></tr>
+ 
+	</tbody>
+</table>
+ </td></table>
+ <br>
+
+
+<p align= center >
+<table cellspacing=0 border=1>
+<caption align=bottom class=captiondataframe>Rule Ensemble Model</caption>
+<tr><td>
+	<table border=1 class=dataframe>
+	<tbody> 
+	<tr class= firstline > 
+		<th>Rule  </th>
+		<th>Support (or std)  </th>
+		<th>Coefficient  </th>
+		<th>Importance  </th>
+		<th>Definition</th> 
+	</tr> 
+<tr> 
+<td class=cellinside> 1
+</td>
+<td class=cellinside>0.047
+</td>
+<td class=cellinside>3.091
+</td>
+<td class=cellinside>100.0
+</td>
+<td class=cellinside>age >= 16.5 and age < 17.5 & activities.x IN ( 'yes' ) & absences.y > 3.5
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 2
+</td>
+<td class=cellinside>0.115
+</td>
+<td class=cellinside>1.490
+</td>
+<td class=cellinside>72.6
+</td>
+<td class=cellinside>age > 17.5 & famsup.x IN ( 'no' )
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 3
+</td>
+<td class=cellinside>0.052
+</td>
+<td class=cellinside>1.900
+</td>
+<td class=cellinside>64.6
+</td>
+<td class=cellinside>age >= 16.5 and age < 17.5 & activities.x NOT IN ( 'yes' ) & traveltime.x > 1.5
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 4
+</td>
+<td class=cellinside>0.058
+</td>
+<td class=cellinside>1.782
+</td>
+<td class=cellinside>63.4
+</td>
+<td class=cellinside>age > 17.5 & traveltime.y > 1.5 & address IN ( 'R' )
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 5
+</td>
+<td class=cellinside>0.113
+</td>
+<td class=cellinside>1.198
+</td>
+<td class=cellinside>57.8
+</td>
+<td class=cellinside>age > 17.5 & traveltime.x > 1.5
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 6
+</td>
+<td class=cellinside>0.055
+</td>
+<td class=cellinside>1.519
+</td>
+<td class=cellinside>52.9
+</td>
+<td class=cellinside>age > 17.5 & famsup.x NOT IN ( 'no' ) & Fjob IN ( 'at_home','health','services','teacher' )
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 7
+</td>
+<td class=cellinside>0.050
+</td>
+<td class=cellinside>1.495
+</td>
+<td class=cellinside>49.6
+</td>
+<td class=cellinside>age >= 16.5 and age < 17.5 & Fjob IN ( 'at_home','services' ) & G3.y <= 13.5
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 8
+</td>
+<td class=cellinside>4.906
+</td>
+<td class=cellinside>-0.063
+</td>
+<td class=cellinside>47.1
+</td>
+<td class=cellinside>absences.y
+</td></tr>
+ 
+<tr> 
+<td class=cellinside> 9
+</td>
+<td class=cellinside>0.039
+</td>
+<td class=cellinside>1.325
+</td>
+<td class=cellinside>39.3
+</td>
+<td class=cellinside>age > 17.5 & traveltime.x <= 1.5 & absences.x <= 7.5 & absences.y > 0.5
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>10
+</td>
+<td class=cellinside>0.058
+</td>
+<td class=cellinside>1.091
+</td>
+<td class=cellinside>38.8
+</td>
+<td class=cellinside>age > 17.5 & traveltime.y > 1.5 & reason IN ( 'course','other' )
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>11
+</td>
+<td class=cellinside>0.047
+</td>
+<td class=cellinside>1.197
+</td>
+<td class=cellinside>38.7
+</td>
+<td class=cellinside>age > 17.5 & traveltime.y <= 1.5 & reason IN ( 'course' )
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>12
+</td>
+<td class=cellinside>0.922
+</td>
+<td class=cellinside>-0.227
+</td>
+<td class=cellinside>32.0
+</td>
+<td class=cellinside>famrel.x
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>13
+</td>
+<td class=cellinside>0.492
+</td>
+<td class=cellinside>-0.352
+</td>
+<td class=cellinside>26.9
+</td>
+<td class=cellinside>age <= 16.5
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>14
+</td>
+<td class=cellinside>7.625
+</td>
+<td class=cellinside>-0.016
+</td>
+<td class=cellinside>18.6
+</td>
+<td class=cellinside>absences.x
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>15
+</td>
+<td class=cellinside>0.846
+</td>
+<td class=cellinside>-0.114
+</td>
+<td class=cellinside>14.7
+</td>
+<td class=cellinside>studytime.y
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>16
+</td>
+<td class=cellinside>0.699
+</td>
+<td class=cellinside>0.108
+</td>
+<td class=cellinside>11.6
+</td>
+<td class=cellinside>traveltime.y
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>17
+</td>
+<td class=cellinside>0.052
+</td>
+<td class=cellinside>-0.190
+</td>
+<td class=cellinside>6.5
+</td>
+<td class=cellinside>age > 17.5 & traveltime.y <= 1.5 & Mjob NOT IN ( 'at_home','services','teacher' )
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>18
+</td>
+<td class=cellinside>0.086
+</td>
+<td class=cellinside>0.132
+</td>
+<td class=cellinside>5.7
+</td>
+<td class=cellinside>age >= 16.5 and age < 17.5 & Fjob IN ( 'at_home','services' )
+</td></tr>
+ 
+	</tbody>
+</table>
+ </td></table>
+ <br>
+
+
+<p align= center >
+<table cellspacing=0 border=1>
+<caption align=bottom class=captiondataframe>Model Performance</caption>
+<tr><td>
+	<table border=1 class=dataframe>
+	<tbody> 
+	<tr class= firstline > 
+		<th>metric  </th>
+		<th>value</th> 
+	</tr> 
+<tr> 
+<td class=cellinside>MSE
+</td>
+<td class=cellinside>0.0428799899466721
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>R2
+</td>
+<td class=cellinside>0.542600902560074
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>LogLoss
+</td>
+<td class=cellinside>0.146098499116228
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>Mean Per-Class Error
+</td>
+<td class=cellinside>0.114619883040936
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>AUC
+</td>
+<td class=cellinside>0.975146198830409
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>Null Deviance
+</td>
+<td class=cellinside>256.180444495487
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>Residual Deviance
+</td>
+<td class=cellinside>111.619253324798
+</td></tr>
+ 
+<tr> 
+<td class=cellinside>AIC
+</td>
+<td class=cellinside>153.619253324798
+</td></tr>
+ 
+	</tbody>
+</table>
+ </td></table>
+ <br>
+
+<hr size=1>
+<font size=-1>
+	 Generated on: <i>Fri Aug  5 21:18:36 2016</i> - <b>R2HTML</b> 
+<hr size=1>
+	</body>
+</html>

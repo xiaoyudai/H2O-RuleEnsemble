@@ -1,0 +1,6 @@
+sex
+age
+Medu
+Fedu
+Mjob
+Fjob
