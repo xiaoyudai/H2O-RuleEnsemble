@@ -1,12 +1,13 @@
 # Diamonds example (regression)
 # train
 $REGO_HOME/bin/trainModel.sh --d=/home/xiaoydai/H2OREgo/examples/diamonds_csv.conf --m=/home/xiaoydai/H2OREgo/examples/diamonds_model.conf
-
 # test
 $REGO_HOME/bin/runModel.sh --m=/home/xiaoydai/H2OREgo/examples/diamonds_export/export --d=/home/xiaoydai/H2OREgo/examples/diamonds_test.conf
+
 # Student example (classification)
 # train
 /Users/xiaoydai/Documents/DXY/rego_dxy/bin/trainModel.sh --d=/Users/xiaoydai/Documents/DXY/rego_dxy/examples/student_csv.conf --m=/Users/xiaoydai/Documents/DXY/rego_dxy/examples/student_model.conf
-
 # test
 $REGO_HOME/bin/runModel.sh --m=/home/xiaoydai/H2OREgo/examples/student_export/export --d=/home/xiaoydai/H2OREgo/examples/student_test.conf
+
+# HDFS Search Data example, see ./hdfs/ folder
